@@ -24,6 +24,7 @@ transform = transforms.Compose([
 
 st.title(" Satellite Image Classifier")
 st.markdown("Upload a satellite image and I'll classify it for you!")
+st.markdown(" Classes: AnnualCrop, Forest, HerbaceousVegetation, Highway, Industrial,Pasture, PermanentCrop, Residential, River, SeaLake")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
